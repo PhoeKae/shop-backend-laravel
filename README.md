@@ -1,4 +1,4 @@
-# AdminDashboard-Filament
+# TeaShop Menu Management Website
 
 This project is a Laravel-based Admin Dashboard using [Filament](https://filamentphp.com/). It provides a clean and powerful admin interface with role-based access control.
 
@@ -20,14 +20,15 @@ Email: admin@example.com
 Password: password
 
 ```bash
-git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
+git clone https://github.com/PhoeKae/shop-backend-laravel.git
 ```
-    cd AdminDashboard-Filament
+    cd shop-backend-laravel
 ```
 composer install
 ```
     cp .env.example .env
     php artisan key:generate
+    php artisan storage:link
 ```
 php artisan migrate --seed
 ```
