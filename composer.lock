@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fab036a7c622aaa26cd0d2f3124a584",
+    "content-hash": "88b0d5fda9fabc6bd9c9f95fd3dc4005",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1034,6 +1034,10 @@
             ],
             "description": "A collection of full-stack components for accelerated Laravel app development.",
             "homepage": "https://github.com/filamentphp/filament",
+            "support": {
+                "issues": "https://github.com/filamentphp/filament/issues",
+                "source": "https://github.com/filamentphp/filament"
+            },
             "time": "2025-01-31T11:08:29+00:00"
         },
         {
