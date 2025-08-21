@@ -31,6 +31,8 @@ return array(
     'App\\Filament\\Resources\\UserResource\\Pages\\EditUser' => $baseDir . '/app/Filament/Resources/UserResource/Pages/EditUser.php',
     'App\\Filament\\Resources\\UserResource\\Pages\\ListUsers' => $baseDir . '/app/Filament/Resources/UserResource/Pages/ListUsers.php',
     'App\\Filament\\Widgets\\TestWidget' => $baseDir . '/app/Filament/Widgets/TestWidget.php',
+    'App\\Http\\Controllers\\Api\\CategoryController' => $baseDir . '/app/Http/Controllers/Api/CategoryController.php',
+    'App\\Http\\Controllers\\Api\\PostController' => $baseDir . '/app/Http/Controllers/Api/PostController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Models\\Category' => $baseDir . '/app/Models/Category.php',
     'App\\Models\\Post' => $baseDir . '/app/Models/Post.php',

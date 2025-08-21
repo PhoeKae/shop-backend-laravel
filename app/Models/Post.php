@@ -2,10 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'thumbnail',
         'title',
@@ -13,6 +16,7 @@ class Post extends Model
         'quantity',
         'price',
         'category_id',
+        'user_id',
     ];
 
     public function category()
