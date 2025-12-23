@@ -36,7 +36,6 @@ class PostResource extends Resource
     {
         return $form
             ->schema([
-
                 Section::make('Create a Post')->collapsible()->description('Create Post over here.')->schema([
                     TextInput::make('title')->rules('min:3|max:50')->required(),
                     Select::make('category_id')->label('Category Name')->relationship('category', 'name')->required(),
@@ -50,6 +49,7 @@ class PostResource extends Resource
                     FileUpload::make('thumbnail')
                         ->disk('public')
                         ->directory('thumbnails')
+                        ->visibility('public')
                         ->image()
                         ->required(),
                 ]),
